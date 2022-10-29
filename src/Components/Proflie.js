@@ -5,7 +5,7 @@ import { Badge } from 'primereact/badge';
 
 function Profile() {
   return (
-    <div>
+    <div className="p-m-4">
     <div className="p-d-flex p-jc-center p-ai-center">
       <Avatar image="kingsley.jpg" size="xlarge" shape="circle">
         <Badge value="4" severity="info" />
