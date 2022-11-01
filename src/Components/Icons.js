@@ -1,6 +1,7 @@
 import React from "react";
 
 import 'primeicons/primeicons.css';
+
 function Icons() {
     return (
     <div className="p-d-flex p-fd-column p-p-24 p-g-64 p-h-72">
@@ -14,4 +15,4 @@ function Icons() {
     );
 }
 
-export default Links;
+export default Icons;

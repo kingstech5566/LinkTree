@@ -10,12 +10,7 @@ import Links from "./Components/Links";
 import Icons from "./Components/Icons";
 import Footer from "./Components/Footer";
 
-import { useState, useEffect } from "react";
-
 function App() {
-  const [profile, setProfile] = useState({
-
-  });
   return (
     <div className="p-m-4">
       <Profile />
