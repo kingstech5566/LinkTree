@@ -3,9 +3,13 @@ import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import 'primeflex/primeflex.css';
 import 'primeicons/primeicons.css';
+import React from "react";
 
 import Profile from "./Components/Proflie";
 import Links from "./Components/Links";
+import Icons from "./Components/Icons";
+import Footer from "./Components/Footer";
+
 import { useState, useEffect } from "react";
 
 function App() {
@@ -17,6 +21,7 @@ function App() {
       <Profile />
       <Links />
       <Icons />
+      <Footer />
       
     </div>
   );
