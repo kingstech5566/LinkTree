@@ -2,17 +2,20 @@ import React from "react";
 
 import { Button } from 'primereact/button';
 
-function Links() {
+function Links({ links }) {
+
   return (
     <div>
       <div className="p-d-flex p-jc-center p-ai-center p-m-2 p-ta-center">
-        <div className="p-d-flex p-flex-column">
+        <div className="p-d-flex p-flex-column" style={{ width: 70 + "%"}}>
+          {links.map((links) => (
           <a href="https://twitter.com/KingsCodes55">
             <Button className="p-p-3 p-m-2" id="twitter">
               <i className="pi pi-twitter p-px-2"></i>
-              <span className="p-px-3">Twitter Link</span>
+              <span className="p-px-3">link.name</span>
             </Button>
           </a>
+          ))}
         </div>
       </div>
       <div className="p-d-flex p-jc-center p-ai-center p-m-2 p-ta-center">
