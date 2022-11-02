@@ -1,4 +1,6 @@
-import "primereact/resources/themes/lara-light-indigo/theme.css";
+import React from "react";
+
+import "primereact/resources/themes/saga-blue/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
 import 'primeflex/primeflex.css';
@@ -16,7 +18,7 @@ function App() {
     bio: "-",
     avatar: "https://avatars.githubusercontent.com/u/112397171?v=4",
     links: [],
-  }),
+  })
 
   useEffect(() => {
     fetch("/data/kingsleychijioke.json")
@@ -26,7 +28,7 @@ function App() {
   return (
     <div className="p-m-4">
       <Profile name={profile.name} bio={profile.bio} avatar={profile.avatar} />
-      <Links links={prfile.links} />
+      <Links links={profile.links} />
       <Icons />
       <Footer />
       

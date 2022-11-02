@@ -1,0 +1,16 @@
+.footer {
+     /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 0px;
+  gap: 64px;
+
+  margin: 0;
+  width: 1440px;
+  height: 160px;
+  left: 0px;
+  top: 998px;
+  /* Base/White */
+  background: #ffffff;
+}
